@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Books App">97ee4f05db30030089b37bedbf96194d</application>
+        <filter/>
+        <name>Books</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_125339_books_app.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-24 02:38:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53ee4f05db30030089b37bedbf961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Books</sys_name>
+        <sys_package display_value="Books App" source="x_125339_books_app">86eec301db30030089b37bedbf961949</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Books App">86eec301db30030089b37bedbf961949</sys_scope>
+        <sys_update_name>sys_ui_module_53ee4f05db30030089b37bedbf961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-24 02:38:56</sys_updated_on>
+        <table>x_125339_books_app_books</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

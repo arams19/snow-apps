@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Books" max_length="40" name="x_125339_books_app_books" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Published By" max_length="40" name="published_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element label="Available" sequence="0" value="Available"/>
+                <element label="Not Available" sequence="1" value="Not Available"/>
+                <element label="Removed" sequence="2" value="Removed"/>
+                <element label="Receiving  Delayed" sequence="3" value="Receiving  Delayed"/>
+            </choice>
+        </element>
+        <element label="Author" max_length="40" name="u_author" type="string"/>
+        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="u_currency_1" type="currency"/>
+        <element label="Title" max_length="40" name="u_title" type="string"/>
+        <element label="Link to book" max_length="1024" name="u_url_2" type="url"/>
+    </element>
+</database>
